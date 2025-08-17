@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Music, Calendar, Star } from 'lucide-react'
+import { Music, Star } from 'lucide-react'
 import Image from 'next/image'
 
 export default function Guest() {
@@ -68,15 +68,6 @@ export default function Guest() {
                   nomes da música gospel reggae do Brasil.
                 </p>
 
-                <div className="glass p-4 rounded-lg">
-                  <div className="flex items-center gap-3 mb-2">
-                    <Calendar className="text-primary" />
-                    <span className="font-bold">Sábado, 04 de Outubro</span>
-                  </div>
-                  <p className="text-sm text-white/80">
-                    Momento especial durante a programação da noite
-                  </p>
-                </div>
 
                 <div className="pt-4">
                   <p className="text-sm text-primary-light">

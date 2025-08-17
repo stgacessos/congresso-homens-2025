@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { MapPin, Car, Bus, Clock } from 'lucide-react'
+import { MapPin, Car } from 'lucide-react'
 
 export default function Location() {
   return (
@@ -34,8 +34,8 @@ export default function Location() {
                 <div>
                   <h3 className="text-xl font-bold mb-2">Igreja Bethshalom Caruaru</h3>
                   <p className="text-white/80 mb-4">
-                    Rua Principal, 123 - Centro<br />
-                    Caruaru - PE, 55000-000
+                    Av. João de Barros, 462 - Petrópolis<br />
+                    Caruaru - PE, 55030-280
                   </p>
                   <a
                     href="https://maps.google.com"
@@ -63,25 +63,7 @@ export default function Location() {
                   </div>
                 </div>
 
-                <div className="flex items-start gap-3">
-                  <Bus className="text-primary mt-1" size={20} />
-                  <div>
-                    <p className="font-semibold">Transporte público</p>
-                    <p className="text-sm text-white/80">
-                      Linhas 101, 203 e 305 param próximo à igreja
-                    </p>
-                  </div>
-                </div>
 
-                <div className="flex items-start gap-3">
-                  <Clock className="text-primary mt-1" size={20} />
-                  <div>
-                    <p className="font-semibold">Horário de funcionamento</p>
-                    <p className="text-sm text-white/80">
-                      Credenciamento a partir das 17h na sexta-feira
-                    </p>
-                  </div>
-                </div>
               </div>
             </div>
 

@@ -3,7 +3,6 @@ import Hero from '@/components/Hero'
 import Urgency from '@/components/Urgency'
 import Purpose from '@/components/Purpose'
 import Guest from '@/components/Guest'
-import Schedule from '@/components/Schedule'
 import Registration from '@/components/Registration'
 import Location from '@/components/Location'
 import FAQ from '@/components/FAQ'
@@ -19,7 +18,6 @@ export default function Home() {
         <Urgency />
         <Purpose />
         <Guest />
-        <Schedule />
         <Registration />
         <Location />
         <FAQ />

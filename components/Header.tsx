@@ -131,7 +131,7 @@ export default function Header() {
 
   return (
     <>
-      <header className={`fixed top-0 w-full z-50 glass transition-all duration-300 ${isPlaying ? 'animate-pulse' : ''}`}>
+      <header className="fixed top-0 w-full z-50 glass transition-all duration-300">
         <div className="section-padding py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-8">

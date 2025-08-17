@@ -2,8 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { Lock, CheckCircle, Shirt, ArrowRight } from 'lucide-react'
-import Image from 'next/image'
+import { Lock, CheckCircle, ArrowRight } from 'lucide-react'
 
 export default function Registration() {
   const [currentDate, setCurrentDate] = useState(new Date())
@@ -25,18 +24,18 @@ export default function Registration() {
     },
     {
       number: 2,
-      price: '{{PRECO_LOTE_2}}',
-      startDate: '{{DATA_INICIO_LOTE_2}}',
-      endDate: '{{DATA_FIM_LOTE_2}}',
+      price: 'R$ ??,??',
+      startDate: '??/??',
+      endDate: '?? de ??',
       label: 'Segundo lote',
       active: !isLote1Active,
       locked: isLote1Active,
     },
     {
       number: 3,
-      price: '{{PRECO_LOTE_3}}',
-      startDate: '{{DATA_INICIO_LOTE_3}}',
-      endDate: '{{DATA_FIM_LOTE_3}}',
+      price: 'R$ ??,??',
+      startDate: '??/??',
+      endDate: '?? de ??',
       label: 'Último lote',
       active: false,
       locked: true,
@@ -60,7 +59,7 @@ export default function Registration() {
           </p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+        <div className="max-w-2xl mx-auto">
           <div className="space-y-6">
             {lotes.map((lote, index) => (
               <motion.div
@@ -108,25 +107,9 @@ export default function Registration() {
               </motion.div>
             ))}
 
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="glass p-6 rounded-lg bg-primary/10"
-            >
-              <div className="flex items-start gap-4">
-                <Shirt className="text-primary mt-1" />
-                <div>
-                  <h4 className="font-bold mb-1">Camiseta do evento</h4>
-                  <p className="text-sm text-white/80">
-                    Adicione por apenas R$ 20 (mediante disponibilidade)
-                  </p>
-                </div>
-              </div>
-            </motion.div>
 
             <motion.a
-              href="{{CTA_URL}}"
+              href="https://lastlink.com/p/C600073D0/checkout-payment"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -136,51 +119,6 @@ export default function Registration() {
               <ArrowRight />
             </motion.a>
           </div>
-
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            className="relative"
-          >
-            <div className="grid grid-cols-2 gap-4">
-              <div className="relative h-64 rounded-lg overflow-hidden">
-                <Image
-                  src="/camiseta-front.png"
-                  alt="Camiseta - Frente"
-                  fill
-                  className="object-cover"
-                  onError={(e) => {
-                    e.currentTarget.style.display = 'none'
-                    e.currentTarget.parentElement?.classList.add('bg-primary/20', 'flex', 'items-center', 'justify-center')
-                    if (e.currentTarget.parentElement) {
-                      e.currentTarget.parentElement.innerHTML = '<div class="text-center"><Shirt class="w-16 h-16 mx-auto mb-2" /><p class="text-sm">Frente</p></div>'
-                    }
-                  }}
-                />
-              </div>
-              <div className="relative h-64 rounded-lg overflow-hidden">
-                <Image
-                  src="/camiseta-back.png"
-                  alt="Camiseta - Costas"
-                  fill
-                  className="object-cover"
-                  onError={(e) => {
-                    e.currentTarget.style.display = 'none'
-                    e.currentTarget.parentElement?.classList.add('bg-primary/20', 'flex', 'items-center', 'justify-center')
-                    if (e.currentTarget.parentElement) {
-                      e.currentTarget.parentElement.innerHTML = '<div class="text-center"><Shirt class="w-16 h-16 mx-auto mb-2" /><p class="text-sm">Costas</p></div>'
-                    }
-                  }}
-                />
-              </div>
-            </div>
-            
-            <div className="mt-6 glass p-4 rounded-lg text-center">
-              <p className="text-sm mb-2">Camiseta oficial do evento</p>
-              <p className="font-bold">100% algodão • Estampa exclusiva</p>
-            </div>
-          </motion.div>
         </div>
       </div>
     </section>

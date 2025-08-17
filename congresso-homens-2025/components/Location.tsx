@@ -34,8 +34,8 @@ export default function Location() {
                 <div>
                   <h3 className="text-xl font-bold mb-2">Igreja Bethshalom Caruaru</h3>
                   <p className="text-white/80 mb-4">
-                    Rua Principal, 123 - Centro<br />
-                    Caruaru - PE, 55000-000
+                    Av. João de Barros, 462 - Petrópolis<br />
+                    Caruaru - PE, 55030-280
                   </p>
                   <a
                     href="https://maps.google.com"

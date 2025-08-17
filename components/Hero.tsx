@@ -186,7 +186,7 @@ export default function Hero() {
           onClick={handleRipple}
         >
           <a
-            href="{{CTA_URL}}"
+            href="https://lastlink.com/p/C600073D0/checkout-payment"
             className="btn-primary text-lg glow relative overflow-hidden"
           >
             Garantir minha inscrição — R$ 60 (1º lote)

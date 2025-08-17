@@ -3,8 +3,8 @@ import Hero from '@/components/Hero'
 import Urgency from '@/components/Urgency'
 import Purpose from '@/components/Purpose'
 import Guest from '@/components/Guest'
-import Schedule from '@/components/Schedule'
 import Registration from '@/components/Registration'
+import Shirt from '@/components/Shirt'
 import Location from '@/components/Location'
 import FAQ from '@/components/FAQ'
 import FinalCTA from '@/components/FinalCTA'
@@ -19,8 +19,8 @@ export default function Home() {
         <Urgency />
         <Purpose />
         <Guest />
-        <Schedule />
         <Registration />
+        <Shirt />
         <Location />
         <FAQ />
         <FinalCTA />

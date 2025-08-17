@@ -47,7 +47,7 @@ export default function FinalCTA() {
               </div>
               <div className="hidden sm:block w-px h-12 bg-white/20" />
               <div className="text-center">
-                <p className="text-3xl font-bold text-primary">500+</p>
+                <p className="text-3xl font-bold text-primary">+300</p>
                 <p className="text-sm">homens unidos em propósito</p>
               </div>
               <div className="hidden sm:block w-px h-12 bg-white/20" />

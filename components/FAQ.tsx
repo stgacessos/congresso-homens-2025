@@ -18,15 +18,15 @@ export default function FAQ() {
     },
     {
       question: 'A camiseta está incluída?',
-      answer: 'Não, a camiseta custa R$ 20 por participante, mediante disponibilidade. Você pode adicionar a camiseta no momento da inscrição ou adquirir no credenciamento.',
+      answer: 'Não, a camiseta custa R$ 20 por participante, mediante disponibilidade. Você pode adicionar a camiseta no momento da inscrição.',
     },
     {
       question: 'Terá área kids?',
       answer: 'Sim, teremos uma área kids com acompanhamento básico para que os pais possam participar tranquilamente das programações. O espaço conta com monitores treinados e atividades apropriadas.',
     },
     {
-      question: 'Como funciona o preço para irmãos?',
-      answer: 'Oferecemos condições especiais para membros da igreja e convidados próximos. O primeiro lote tem o melhor preço promocional. Entre em contato conosco para mais informações sobre descontos.',
+      question: 'Tem descontos para grandes grupos?',
+      answer: 'Não, o evento em si não se paga e não tem a intenção de gerar lucro. Caso haja lucro, será redirecionado para projetos missionários. Por isso o evento não tem descontos progressivos, já que se trata de doação de irmãos que estão fazendo o evento acontecer.',
     },
     {
       question: 'Posso transferir minha inscrição?',
@@ -38,7 +38,7 @@ export default function FAQ() {
     },
     {
       question: 'Preciso levar comprovante?',
-      answer: 'Sim, traga um documento com foto e o QR Code da inscrição (enviado por e-mail). Isso agiliza o processo de credenciamento e garante sua entrada no evento.',
+      answer: 'Sim, traga um documento com foto e o QR Code da inscrição (enviado por e-mail). Isso garante sua entrada no evento.',
     },
   ]
 
@@ -115,19 +115,12 @@ export default function FAQ() {
           <p className="text-lg mb-4">
             Ainda tem dúvidas? Estamos aqui para ajudar!
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <a
-              href="https://wa.me/5581999999999"
+              href="https://wa.me/5581992450999"
               className="text-primary hover:underline"
             >
-              WhatsApp: (81) 9 9999-9999
-            </a>
-            <span className="hidden sm:block">•</span>
-            <a
-              href="mailto:congresso@bethshalom.com.br"
-              className="text-primary hover:underline"
-            >
-              congresso@bethshalom.com.br
+              (81) 99245-0999 (Vagner)
             </a>
           </div>
         </motion.div>
