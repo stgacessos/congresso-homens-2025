@@ -66,7 +66,7 @@ export default function FinalCTA() {
             className="inline-block"
           >
             <a
-              href="https://lastlink.com/p/C600073D0/checkout-payment"
+              href="https://form.respondi.app/x44VNmey"
               className="btn-primary text-xl px-12 py-6 glow"
             >
               Responder ao chamado

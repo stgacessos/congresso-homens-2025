@@ -109,7 +109,7 @@ export default function Registration() {
 
 
             <motion.a
-              href="https://lastlink.com/p/C600073D0/checkout-payment"
+              href="https://form.respondi.app/x44VNmey"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}

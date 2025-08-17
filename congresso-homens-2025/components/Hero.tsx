@@ -186,7 +186,7 @@ export default function Hero() {
           onClick={handleRipple}
         >
           <a
-            href="{{CTA_URL}}"
+            href="https://form.respondi.app/x44VNmey"
             className="btn-primary text-lg glow relative overflow-hidden"
           >
             Garantir minha inscrição — R$ 60 (1º lote)

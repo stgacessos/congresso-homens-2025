@@ -126,7 +126,7 @@ export default function Registration() {
             </motion.div>
 
             <motion.a
-              href="{{CTA_URL}}"
+              href="https://form.respondi.app/x44VNmey"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
