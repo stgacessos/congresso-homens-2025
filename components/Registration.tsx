@@ -24,9 +24,9 @@ export default function Registration() {
     },
     {
       number: 2,
-      price: 'R$ ??,??',
+      price: 'R$ 70,00',
       startDate: '??/??',
-      endDate: '?? de ??',
+      endDate: '?? de 10',
       label: 'Segundo lote',
       active: !isLote1Active,
       locked: isLote1Active,
