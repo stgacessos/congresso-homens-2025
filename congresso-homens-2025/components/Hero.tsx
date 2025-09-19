@@ -15,7 +15,7 @@ export default function Hero() {
   const fishScale = useTransform(scrollY, [0, 500], [1, 0.8])
 
   useEffect(() => {
-    const targetDate = new Date('2025-08-24T23:59:59')
+    const targetDate = new Date('2025-09-27T23:59:59')
     
     const updateCountdown = () => {
       const now = new Date()
@@ -189,7 +189,7 @@ export default function Hero() {
             href="https://form.respondi.app/x44VNmey"
             className="btn-primary text-lg glow relative overflow-hidden"
           >
-            Garantir minha inscrição — R$ 60 (1º lote)
+            Garantir minha inscrição — R$ 70 (2º lote)
             <ChevronDown className="animate-bounce" />
           </a>
         </motion.div>

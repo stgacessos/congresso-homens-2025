@@ -9,7 +9,7 @@ export default function Urgency() {
           
           <div>
             <h3 className="text-2xl font-bold mb-2">
-              1º Lote por R$ 60 até 24/08. Depois o valor sobe.
+              2º Lote por R$ 70 até 27/09. Depois o valor sobe.
             </h3>
             <div className="flex flex-col md:flex-row items-center gap-4">
               <span className="inline-block px-4 py-1 bg-primary/20 rounded-full text-sm font-semibold">
