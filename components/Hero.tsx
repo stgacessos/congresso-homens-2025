@@ -189,7 +189,7 @@ export default function Hero() {
             href="https://form.respondi.app/x44VNmey"
             className="btn-primary text-lg glow relative overflow-hidden"
           >
-            Garantir minha inscrição — R$ 60 (1º lote)
+            Garantir minha inscrição — R$ 70 (2º lote)
             <ChevronDown className="animate-bounce" />
           </a>
         </motion.div>

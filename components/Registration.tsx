@@ -17,7 +17,7 @@ export default function Registration() {
   const lotes = [
     {
       number: 1,
-      price: 'R$ 60',
+      price: 'R$ 70',
       endDate: '24/08',
       label: 'Preço promocional para irmãos',
       active: isLote1Active,
