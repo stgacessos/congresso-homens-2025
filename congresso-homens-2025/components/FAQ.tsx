@@ -18,7 +18,7 @@ export default function FAQ() {
     },
     {
       question: 'A camiseta está incluída?',
-      answer: 'Não, a camiseta custa R$ 20 por participante, mediante disponibilidade. Você pode adicionar a camiseta no momento da inscrição ou adquirir no credenciamento.',
+      answer: 'Não, a camiseta custa R$ 30 por participante, mediante disponibilidade. Você pode adicionar a camiseta no momento da inscrição ou adquirir no credenciamento.',
     },
     {
       question: 'Terá área kids?',

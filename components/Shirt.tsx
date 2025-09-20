@@ -35,7 +35,7 @@ export default function ShirtSection() {
                 <div>
                   <h4 className="font-bold mb-2 text-xl">Camiseta exclusiva</h4>
                   <p className="text-white/80 mb-4">
-                    Adicione a camiseta oficial do congresso por apenas <span className="text-primary font-bold">R$ 20</span>
+                    Adicione a camiseta oficial do congresso por apenas <span className="text-primary font-bold">R$ 30</span>
                   </p>
                   <p className="text-sm text-white/60">
                     * Mediante disponibilidade de tamanhos
